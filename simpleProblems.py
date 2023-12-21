@@ -40,8 +40,24 @@ define_number(0); '''
 '''Problem 5: File Handling
 Create a text file with some lines of text. Write a Python program to read the contents of the file and print each line.'''
 import os
+from io import open 
+import time
+import shutil
 path = 'C:\\Users\\PROBOOK 430\\Desktop\\py.txt';
 if (os.path.exists):
     print('it exists')
 else:
     print('does not exists')
+
+text = 'heyy youuuu\n this is text im writing in the new text document'
+file = open('py.txt' , 'w')
+file.write(text)
+#time.sleep(10)
+file_append = open('py.txt', 'a')
+file_append.write('\n appending some more text')
+file = open('py.txt', 'r')
+file_contents = file.read()
+file.close()
+#copying the file contents
+copied_file= shutil.copy('py.txt' , "C:\\Users\\PROBOOK 430\\Desktop\\copied.txt")
+print(file_contents)
