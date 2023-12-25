@@ -39,7 +39,7 @@ define_number(0); '''
 
 '''Problem 5: File Handling
 Create a text file with some lines of text. Write a Python program to read the contents of the file and print each line.'''
-import os
+'''import os
 from io import open 
 import time
 import shutil
@@ -60,4 +60,16 @@ file_contents = file.read()
 file.close()
 #copying the file contents
 copied_file= shutil.copy('py.txt' , "C:\\Users\\PROBOOK 430\\Desktop\\copied.txt")
-print(file_contents)
+print(file_contents) '''
+
+#sum of even no.
+def sum_even():
+    num = int(input("Enter the range for which u want to check the sum of even nos :"))
+    count = 0
+    sum = 0
+    for i in range(1,num+1):
+        if(i % 2 == 0):
+            sum+=i
+            return sum
+        
+print(sum_even())
