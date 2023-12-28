@@ -126,12 +126,20 @@ removeDuplicates()'''
 print(isPalindrome('radar'))'''
 '''a number as a parameter, return the sum of all natural that are multiples of 5,7 less than the no. provided in
 the parameter'''
-def multiples(num):
+'''def multiples(num):
     sum_of_multiples = 0
     for i in range(1, num +1):
         if (i % 5 == 0) or (i % 7 == 0):
             sum_of_multiples += i
     return sum_of_multiples
-print(multiples(20))
+print(multiples(20))'''
+
+'''in an array that has been sorted in ascending order, but has been cyclically shifted, find the element that has the
+minimum element. example [5,6,7,8,9,10,11,1,2,3,4]. Write an algorithm that optimmally finds the minimum element in
+such an array'''
+array = [5,6,7,8,9,10,11,1,2,3,4]
+print(min(array))
+
+
     
 
