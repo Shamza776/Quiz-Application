@@ -68,7 +68,7 @@ os.remove('moved.txt') '''
 ''''''
 
 #sum of even no.
-def sum_even():
+'''def sum_even():
     num = int(input("Enter the range for which u want to check the sum of even nos :"))
     count = 0
     sum = 0
@@ -77,4 +77,52 @@ def sum_even():
             sum+=i
             return sum
         
-print(sum_even())
+print(sum_even())'''
+#sum of odd no.
+'''def sum_odd(odd_Num):
+    #odd_Num = int(input('enter the range of numbers: '))
+    sum_of_odd = 0
+    for i in range(1, odd_Num):
+        if (i%2 != 0):
+            sum_of_odd += i
+    return sum_of_odd
+print(sum_odd(100))'''
+
+'''create a single string from a list'''
+'''list1 = ["hello", " Shamza", " ."," How"," are", " you"]
+print("".join(list1))'''
+'''find the common element in two lists'''
+'''list1 = [2,3,4,5,6]
+list2 = [7,8,9,0,2]
+common = []
+for i in list1:
+    if i in list2:
+        common.append(i)
+        print(common)'''
+'''check and count even no.'''
+'''def count_evenNo():
+    supposed_even_no = [1,2,3,4,5,6,7,8,9,0]
+    print(max(supposed_even_no))
+    count = 0
+    for i in supposed_even_no:
+        if (i % 2 == 0):
+            count += 1
+    return count
+print(count_evenNo())'''
+'''remove duplicates'''
+'''def removeDuplicates():
+    list1= [1,2,3,4]
+    list2 = [3,4,5,6]
+    newList = set(list1 + list2)
+    print(newList)
+removeDuplicates()'''
+'''check for palindrome'''
+'''def isPalindrome(string):
+    string1 = string[::-1]
+    if (string == string1):
+        return True
+    else:
+        return False
+print(isPalindrome('radar'))'''
+'''sorting array using bubble sort algorithm'''
+
