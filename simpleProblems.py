@@ -60,7 +60,12 @@ file_contents = file.read()
 file.close()
 #copying the file contents
 copied_file= shutil.copy('py.txt' , "C:\\Users\\PROBOOK 430\\Desktop\\copied.txt")
-print(file_contents) '''
+print(file_contents) 
+#moving the files
+shutil.move('py.txt','C:\\Users\\PROBOOK 430\\Desktop\\moved.txt')
+#deleting a file
+os.remove('moved.txt') '''
+''''''
 
 #sum of even no.
 def sum_even():
