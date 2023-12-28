@@ -124,5 +124,14 @@ removeDuplicates()'''
     else:
         return False
 print(isPalindrome('radar'))'''
-'''sorting array using bubble sort algorithm'''
+'''a number as a parameter, return the sum of all natural that are multiples of 5,7 less than the no. provided in
+the parameter'''
+def multiples(num):
+    sum_of_multiples = 0
+    for i in range(1, num +1):
+        if (i % 5 == 0) or (i % 7 == 0):
+            sum_of_multiples += i
+    return sum_of_multiples
+print(multiples(20))
+    
 
