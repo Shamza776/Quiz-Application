@@ -36,6 +36,6 @@ Find the sum of even numbers in a given range.
 
 The Rock, Paper, Scissors project is a simple game where the computer randomly selects rock, paper, or scissors, and the user chooses one as well. The winner is determined based on the rules of the game.
 
-**File:** `rock_paper_scissors.py`
+**File:** `rock-paper-scissors.py`
 
 
