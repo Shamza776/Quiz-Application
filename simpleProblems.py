@@ -63,7 +63,7 @@ copied_file= shutil.copy('py.txt' , "C:\\Users\\PROBOOK 430\\Desktop\\copied.txt
 print(file_contents) '''
 
 #sum of even no.
-def sum_even():
+'''def sum_even():
     num = int(input("Enter the range for which u want to check the sum of even nos :"))
     count = 0
     sum = 0
@@ -72,4 +72,15 @@ def sum_even():
             sum+=i
             return sum
         
-print(sum_even())
+print(sum_even())'''
+
+###ksh to dollars
+'''def currencyConverter ():
+    ksh = int(input('enter amount in ksh: '))
+    dollars = ksh * 100 
+    print(dollars)
+currencyConverter()'''
+
+##quess the word
+
+
