@@ -44,4 +44,7 @@ The Rock, Paper, Scissors project is a simple game where the computer randomly s
 
 A simple game where the user is given a quiz with multiple choices for he or she should answer correctly. 
 
+**File:** ` Quiz-Application
+
+
 
