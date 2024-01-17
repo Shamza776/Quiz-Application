@@ -38,4 +38,10 @@ The Rock, Paper, Scissors project is a simple game where the computer randomly s
 
 **File:** `rock-paper-scissors.py`
 
+##Quiz_Application
+
+###Description
+
+A simple game where the user is given a quiz with multiple choices for he or she should answer correctly. 
+
 
